@@ -3,6 +3,8 @@
 A way to break down your API Gateway requests to see which services
 are taking up most of your time
 
+![Alt example](./public/action-in-ci.png)
+
 ## How to use 
 
 Our custom action is used in the following way, in a workflow file:
@@ -22,7 +24,7 @@ steps:
       request-body: '{ "itemDescription": "test" }'
 ```
 
-Where:
- - name: is a string that would be the name of the api path you're breaking down
- - api-url: would be the api url path of the endpoint you are wanting to break down
- - request-body: would be the body that is sent to the endpoint
+Where
+ - name, is a string that would be the name of the api path you're breaking down
+ - api-url, would be the api url path of the endpoint you are wanting to break down
+ - request-body, would be the body that is sent to the endpoint
